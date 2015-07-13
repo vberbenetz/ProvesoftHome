@@ -5,7 +5,7 @@
 ---
 This is a complete guide to setup a webserver and deploy website code from this repository on a cloud server (VPS).
 
-## Installation
+## Installation:
 ---
 Create a new VPS running the latest or LTS version of Ubuntu.
 SSH into the new server as ```root``` and
