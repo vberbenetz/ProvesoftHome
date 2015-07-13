@@ -1,4 +1,4 @@
-# Provesoft Landing Page
+# Cantango Website
 ---
 
 ## Summary
@@ -8,7 +8,7 @@ This is a complete guide to setup a webserver and deploy website code from this 
 ## Installation
 ---
 Create a new VPS running the latest or LTS version of Ubuntu.
-SSH into the new server as ```root``` and
+SSH into the new server as ```root``` (currently 104.131.90.42 hosted by Digital Ocean) and
 create a group and account specifically for running the server. 
 Add the new user to the sudoers group.
 Create home directory and change ownership to new user
