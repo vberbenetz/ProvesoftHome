@@ -1,0 +1,26 @@
+/* Add here all your css styles (customizations) */
+.headline {
+    border-bottom: 0;
+}
+
+.headline h1
+{
+    border-bottom: 2px solid #E67E22;
+    padding-bottom: 5px;
+}
+
+.headline h2
+{
+    border-bottom-color: #E67E22;
+}
+
+.headline h1#contact-box {
+    border-bottom-color: #ffffff;
+}
+
+/* Fix h2 size on mobile devices for contacts page */
+@media (max-width: 600px) {
+    li a h2 {
+        font-size: 1.2em;
+    }
+}
