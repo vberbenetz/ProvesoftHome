@@ -8,31 +8,6 @@ module.exports = function(app) {
     // Allow static HTML and CSS pages to be rendered =================================================================/
     app.use(serveStatic('public'));
 
-
-    // Our Work Pages =================================================================================================/
-    app.get('/purchasing', function(req, res) {
-        res.sendfile('./public/purchasing.html');
-    });
-
-    app.get('/warehouse-management', function(req, res) {
-        res.sendfile('./public/warehouse.html');
-    });
-
-    app.get('/order-entry', function(req, res) {
-        res.sendfile('./public/orderentry.html');
-    });
-    app.get('/shipping-receiving', function(req, res) {
-        res.sendfile('./public/shipping.html');
-    });
-
-    app.get('/logistics', function(req, res) {
-        res.sendfile('./public/logistics.html');
-    });
-
-    app.get('/manufacturing', function(req, res) {
-        res.sendfile('./public/manufacturing.html');
-    });
-
     // Home Page ======================================================================================================/
     app.get('/', function(req, res) {
         res.sendfile('./public/index.html');
@@ -44,12 +19,6 @@ module.exports = function(app) {
 
     app.get('/our-mission', function(req, res) {
         res.sendfile('./public/mission.html');
-    });
-
-
-    // Score Card =====================================================================================================/
-    app.get('/scorecard-demo', function(req, res) {
-        res.sendfile('./public/scorecard.html');
     });
 
 
