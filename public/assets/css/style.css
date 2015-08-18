@@ -1722,11 +1722,25 @@ font-size: 55px;
     line-height: 48px;
 }
 .subHeader-1 {
+     font-size: 24px;
+     font-family: 'Montserrat', sans-serif;
+     color:white;
+     line-height: 26px;
+ }
+
+.header-1b {
+    font-size: 43px;
+    font-family: 'Montserrat', sans-serif;
+    color:#34495e;
+    line-height: 48px;
+}
+.subHeader-1b {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
-    color:white;
+    color:#34495e;
     line-height: 24px;
 }
+
 
 .subHeader-2 {
     font-size: 24px;
