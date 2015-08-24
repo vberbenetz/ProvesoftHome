@@ -21,7 +21,9 @@ module.exports = function(app) {
         res.sendfile('./public/Implementation.html');
     });
 
-
+    app.get('/signup', function(req, res) {
+        res.sendfile('./public/signup.html');
+    });
 
 
 
