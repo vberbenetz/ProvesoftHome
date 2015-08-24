@@ -1741,6 +1741,17 @@ font-size: 55px;
     line-height: 24px;
 }
 
+.specialP {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color:#2980b9;
+    line-height: 15px;
+}
+
+.icon-blue {
+font-size: 34px;
+color:#2980b9;
+}
 
 .subHeader-2 {
     font-size: 24px;

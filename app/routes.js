@@ -17,15 +17,12 @@ module.exports = function(app) {
         res.sendfile('./public/contact.html');
     });
 
-    app.get('/our-mission', function(req, res) {
-        res.sendfile('./public/mission.html');
+    app.get('/implementation', function(req, res) {
+        res.sendfile('./public/Implementation.html');
     });
 
 
-    // Shop Demo ======================================================================================================/
-    app.get('/shop-demo', function(req, res) {
-        res.sendfile('./public/Shop-UI/index.html');
-    });
+
 
 
     // Blog ===========================================================================================================/
