@@ -25,6 +25,18 @@ module.exports = function(app) {
         res.sendfile('./public/signup.html');
     });
 
+    app.get('/process-control', function(req, res) {
+        res.sendfile('./public/process-control.html');
+    });
+
+    app.get('/cloud-storage', function(req, res) {
+        res.sendfile('./public/cloud-storage.html');
+    });
+
+    app.get('/continuous-improvement', function(req, res) {
+        res.sendfile('./public/continuous-improvement.html');
+    });
+
 
 
     // Blog ===========================================================================================================/
