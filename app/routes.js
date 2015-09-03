@@ -41,6 +41,10 @@ module.exports = function(app) {
         res.sendfile('./public/training.html');
     });
 
+    app.get('/faq', function(req, res) {
+        res.sendfile('./public/training.html');
+    });
+
     // Blog ===========================================================================================================/
     app.get('/blog', function(req, res) {
         res.sendfile('./public/blog/blog_home.html');
