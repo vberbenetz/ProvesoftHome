@@ -1860,6 +1860,13 @@ background: url("../img/scorecard_image.png");
     background-size: cover;
 }
 
+.bg-man-pc {
+    background: url("../img/man-graphic.jpg");
+    background-size: cover;
+}
+
+
+
 .overlay    {  background:rgba(0,0,0,0);
     text-align:center;
     padding:45px 0 66px 0;
