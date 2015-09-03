@@ -37,7 +37,9 @@ module.exports = function(app) {
         res.sendfile('./public/continuous-improvement.html');
     });
 
-
+    app.get('/training', function(req, res) {
+        res.sendfile('./public/training.html');
+    });
 
     // Blog ===========================================================================================================/
     app.get('/blog', function(req, res) {
