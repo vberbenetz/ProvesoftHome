@@ -42,7 +42,7 @@ module.exports = function(app) {
     });
 
     app.get('/faq', function(req, res) {
-        res.sendfile('./public/training.html');
+        res.sendfile('./public/faq.html');
     });
 
     // Blog ===========================================================================================================/
