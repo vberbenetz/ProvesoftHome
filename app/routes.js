@@ -8,33 +8,52 @@ module.exports = function(app) {
     // Allow static HTML and CSS pages to be rendered =================================================================/
     app.use(serveStatic('public'));
 
-
-    // Our Work Pages =================================================================================================/
-    app.get('/purchasing', function(req, res) {
-        res.sendfile('./public/purchasing.html');
-    });
-
-    app.get('/warehouse-management', function(req, res) {
-        res.sendfile('./public/warehouse.html');
-    });
-
-    app.get('/order-entry', function(req, res) {
-        res.sendfile('./public/orderentry.html');
-    });
-    app.get('/shipping-receiving', function(req, res) {
-        res.sendfile('./public/shipping.html');
-    });
-
-    app.get('/logistics', function(req, res) {
-        res.sendfile('./public/logistics.html');
-    });
-
-    app.get('/manufacturing', function(req, res) {
-        res.sendfile('./public/manufacturing.html');
-    });
-
     // Home Page ======================================================================================================/
     app.get('/', function(req, res) {
+        res.sendfile('./public/index.html');
+    });
+
+
+    // What We Do =====================================================================================================/
+    app.get('/process-control', function(req, res) {
+        res.sendfile('./public/process-control.html');
+    });
+
+    app.get('/cloud-storage', function(req, res) {
+        res.sendfile('./public/cloud-storage.html');
+    });
+
+    app.get('/continuous-improvement', function(req, res) {
+        res.sendfile('./public/continuous-improvement.html');
+    });
+
+
+    // Services =======================================================================================================/
+
+    app.get('/implementation', function(req, res) {
+        res.sendfile('./public/implementation.html');
+    });
+
+    app.get('/consulting', function(req, res) {
+        res.sendfile('./public/index');
+    });
+
+    app.get('/training', function(req, res) {
+        res.sendfile('./public/training.html');
+    });
+
+
+    // Resources ======================================================================================================/
+
+    app.get('/faq', function(req, res) {
+        res.sendfile('./public/faq.html');
+    });
+
+    app.get('/white-papers', function(req, res) {
+        res.sendfile('./public/index.html');
+    });
+
+    app.get('/guides', function(req, res) {
         res.sendfile('./public/index.html');
     });
 
@@ -42,27 +61,19 @@ module.exports = function(app) {
         res.sendfile('./public/contact.html');
     });
 
-    app.get('/our-mission', function(req, res) {
-        res.sendfile('./public/mission.html');
+    app.get('/blog', function(req, res) {
+        res.sendfile('./public/blog/blog_home.html');
     });
 
 
-    // Score Card =====================================================================================================/
-    app.get('/scorecard-demo', function(req, res) {
-        res.sendfile('./public/scorecard.html');
-    });
+    // Provesoft App ==================================================================================================/
 
-
-    // Shop Demo ======================================================================================================/
-    app.get('/shop-demo', function(req, res) {
-        res.sendfile('./public/Shop-UI/index.html');
+    app.get('/signup', function(req, res) {
+        res.sendfile('./public/signup.html');
     });
 
 
     // Blog ===========================================================================================================/
-    app.get('/blog', function(req, res) {
-        res.sendfile('./public/blog/blog_home.html');
-    });
 
     app.get('/blog/:name', function(req, res) {
         var name = req.params.name;
@@ -83,7 +94,10 @@ module.exports = function(app) {
     app.get('/api/blog/latest-post', function(req, res) {
         blogController.getLatestPost(req, res);
     });
-// Provesoft Pages =================================================================================================/
+
+
+    // Provesoft Pages ================================================================================================/
+
     app.get('/process-management', function(req, res) {
         res.sendfile('./public/process-management.html');
     });
@@ -96,6 +110,8 @@ module.exports = function(app) {
         res.sendfile('./public/improvement-collaboration.html');
     });
 
+
+    // TODO: ADD 404 PAGE
     // Send to home page if no route found ============================================================================/
     app.get('*', function(req, res) {
         res.sendfile('./public/index.html');

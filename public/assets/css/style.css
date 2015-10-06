@@ -36,7 +36,7 @@ label {
 }
 
 a {
-   color: #e67e22;
+   color: #2980b9;
    text-decoration: none;  
 }
 
@@ -50,7 +50,7 @@ a:focus {
   text-decoration: none;
 }
 a:hover {
-   color: #e67e22;
+   color: #2980b9;
    text-decoration: underline;
 }
 
@@ -147,7 +147,7 @@ a:hover {
 .service .service-icon {
 	float: left;
 	padding: 10px;
-	color: #e67e22;
+	color: #2980b9;
 	font-size: 35px;  
 	text-align: center;
     -webkit-transition: all 0.4s ease-in-out;
@@ -214,7 +214,7 @@ a:hover {
 }
 
 .recent-work a:hover span {
-	border-bottom: solid 2px #e67e22;
+	border-bottom: solid 2px #2980b9;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -371,7 +371,7 @@ a.thumbnail {
 
 .thumbnail h3 a:hover,
 .thumbnail-style h3 a:hover {
-	color: #e67e22;
+	color: #2980b9;
 	text-decoration: none;
 }
 
@@ -386,7 +386,7 @@ a.thumbnail {
 	color: #fff;
 	padding: 1px 6px;
 	position: absolute;
-	background: #e67e22;
+	background: #2980b9;
 	display: inline-block; 
 }
 .thumbnail-style a.btn-more:hover {
@@ -480,14 +480,14 @@ a.thumbnail {
 }
 
 .posts .dl-horizontal dd a:hover { 
-	color: #e67e22; 
+	color: #2980b9; 
 	text-decoration: none;
 }
 
 .posts .dl-horizontal:hover dt img,
 .posts .dl-horizontal:hover dd a { 
-	color: #e67e22;
-	border-color: #e67e22 !important;
+	color: #2980b9;
+	border-color: #2980b9 !important;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -522,7 +522,7 @@ a.thumbnail {
 
 .team ul.team-socail li i:hover {
 	color: #fff;
-	background: #e67e22;
+	background: #2980b9;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -542,7 +542,7 @@ a.thumbnail {
 }
 
 .team .thumbnail-style:hover h3 a {
-	color: #e67e22 !important;
+	color: #2980b9 !important;
 }
 
 .team .thumbnail-style small {
@@ -605,7 +605,7 @@ a.thumbnail {
 	text-decoration: underline;
 }
 .privacy a:hover {
-	color: #e67e22;
+	color: #2980b9;
 	text-decoration: none;
 }
 
@@ -661,7 +661,7 @@ ul.blog-tags a i {
 }
 
 ul.blog-tags a:hover {
-	background: #e67e22;
+	background: #2980b9;
 }
 
 ul.blog-tags a:hover,
@@ -686,7 +686,7 @@ ul.blog-tags a:hover i {
 }
 
 .blog-photos li img:hover {
-	box-shadow: 0 0 0 2px #e67e22;
+	box-shadow: 0 0 0 2px #2980b9;
 }
 
 /*Blog Latest Tweets*/
@@ -734,11 +734,11 @@ ul.blog-tags a:hover i {
 }
 
 .blog-twitter .blog-twitter-inner:hover {
-	border-color: #e67e22;
-	border-top-color: #e67e22;	
+	border-color: #2980b9;
+	border-top-color: #2980b9;	
 }
 .blog-twitter .blog-twitter-inner:hover:after {
-	border-top-color: #e67e22;	
+	border-top-color: #2980b9;	
 }
 
 .blog-twitter .blog-twitter-inner span.twitter-time {
@@ -748,7 +748,7 @@ ul.blog-tags a:hover i {
 }
 
 .blog-twitter .blog-twitter-inner a {
-	color: #e67e22;
+	color: #2980b9;
 	text-decoration: none;
 }
 .blog-twitter .blog-twitter-inner a:hover {
@@ -767,7 +767,7 @@ ul.blog-tags a:hover i {
 	margin-bottom: 6px;
 }
 .who li i { 
-	color: #e67e22; 
+	color: #2980b9; 
 	font-size: 13px;
 	min-width: 15px;
 	margin-right: 8px;
@@ -836,7 +836,7 @@ ul.blog-tags a:hover i {
 
 .promo-box:hover strong, 
 .promo-box:hover strong a {
-	color: #e67e22;
+	color: #2980b9;
 }
 
 /*Promo Service*/
@@ -899,7 +899,7 @@ ul.blog-tags a:hover i {
 }
 
 .info-blocks:hover i.icon-info-blocks {
-	color: #e67e22;
+	color: #2980b9;
     -webkit-transition:all 0.2s ease-in-out;
     -moz-transition:all 0.2s ease-in-out;
     -o-transition:all 0.2s ease-in-out;
@@ -1001,7 +1001,7 @@ ul.labels-demo li {
 }
 
 .line-icon-page .item:hover {
-	color: #e67e22;
+	color: #2980b9;
 }
 
 /*Line Icon Page
@@ -1075,7 +1075,7 @@ ul.labels-demo li {
 }
 
 .bs-glyphicons li:hover {
-	color: #e67e22;
+	color: #2980b9;
 	background-color: #fafafa;
 }
 
@@ -1471,7 +1471,7 @@ ul.labels-demo li {
 }
 
 .status-bar li i {
-	color: #e67e22;
+	color: #2980b9;
 	margin-right: 5px;
 }
 
@@ -1514,7 +1514,7 @@ ul.labels-demo li {
 }
 
 .share-list li i {
-	color: #e67e22;
+	color: #2980b9;
 	margin-right: 5px;
 }
 
@@ -1634,8 +1634,8 @@ img.img-mouse {
 }
 
 .testimonials-bs .carousel-control-v2 i:hover {
-  color: #e67e22;
-  border-color: #e67e22;
+  color: #2980b9;
+  border-color: #2980b9;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1654,19 +1654,12 @@ img.img-mouse {
 	color: #555;
 }
 
+#modalBod {
+    height: 700px;
+    width: 1200px;
+}
+
 /*joe's personal touch*/
-.scorecardHeader {
-    font-size: 24px;
-    color: #ffffff;
-}
-
-.height-50 {
-    height: 50px;
-}
-
-.CTA {
-    font-size: x-large;
-}
 
 .headerBackground {
     height: 600px;
@@ -1681,8 +1674,19 @@ img.img-mouse {
     background-position: center center;
 }
 
+.headerBackground-mount {
+    height: 800px;
+    background: url(../img/bgmount.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 .margin-top-100 {
     margin-top:100px;
+}
+
+.margin-top-40 {
+    margin-top:40px;
 }
 
 .padding-top-100 {
@@ -1701,8 +1705,64 @@ img.img-mouse {
     opacity: 100;
 }
 
-.font-comfortaa {
-    font-family: "Comfortaa";
+.font-fredoka {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-1 {
+font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    line-height: 55px;
+}
+.header-1a {
+    font-size: 48px;
+    font-family: 'Hind', sans-serif;
+    color:white;
+    line-height: 48px;
+}
+.subHeader-1 {
+     font-size: 24px;
+     font-family: 'Montserrat', sans-serif;
+     color:white;
+     line-height: 26px;
+ }
+
+.header-1b {
+    font-size: 43px;
+    font-family: 'Montserrat', sans-serif;
+    color:#2980b9;
+    line-height: 48px;
+}
+.subHeader-1b {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color:#2980b9;
+    line-height: 24px;
+}
+
+.specialP {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color:#2980b9;
+    line-height: 15px;
+}
+
+.icon-blue {
+font-size: 34px;
+color:#2980b9;
+}
+
+.subHeader-2 {
+    font-size: 24px;
+    font-family: 'Hind', sans-serif;
+    color:white;
+    line-height: 30px;
+}
+
+.indexButton {
+    height: 100px;
+    width: 300px;
 }
 
 .font-large{
@@ -1736,6 +1796,39 @@ img.img-mouse {
     background-repeat: repeat;
 }
 
+.purpleback {
+    background-color: #9b59b6;
+}
+
+.peachback {
+background-color: #e74c3c;
+}
+
+.greenseaback {
+background-color: #16a085;
+}
+
+.blueback {
+background-color: #2980b9;
+}
+
+.brand-blue {
+   background-color:#2980b9;
+}
+
+.large-logo {
+height: 100px;
+}
+
+.no-decor {
+color:#ffffff;
+}
+
+.no-decor:hover {
+    color:#ffffff;
+    text-decoration: none;
+}
+
 .padding-bottom-25 {
     padding-bottom: 25px;
 }
@@ -1753,6 +1846,11 @@ img.img-mouse {
     background-repeat: repeat;
 }
 
+.bg-green-cup {
+    background-image: url("../img/green_cup.png");
+    background-repeat: repeat;
+}
+
 .width-300 {
 width:300px;
 }
@@ -1761,6 +1859,13 @@ width:300px;
 background: url("../img/scorecard_image.png");
     background-size: cover;
 }
+
+.bg-man-pc {
+    background: url("../img/man-graphic.jpg");
+    background-size: cover;
+}
+
+
 
 .overlay    {  background:rgba(0,0,0,0);
     text-align:center;
@@ -1780,6 +1885,23 @@ background-size: cover;
     color:rgba(255,255,255,.85);
     font-size:65px;}
 
+.signinBox {
+    border: 4px solid #ffffff;
+
+}
+
+.padding-bottom-50 {
+padding-bottom: 50px;
+}
+
+.padding-top-50 {
+    padding-top: 50px;
+}
+
+#clickhere {
+text-decoration: none;
+    color: #ff4500;
+}
 
 /*HOVER EFFECTS*/
 /* Overline From Left */
@@ -1802,7 +1924,7 @@ background-size: cover;
     left: 0;
     right: 100%;
     top: 0;
-    background: #e67e22;
+    background: #2980b9;
     height: 4px;
     -webkit-transition-property: right;
     transition-property: right;
