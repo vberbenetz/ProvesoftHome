@@ -54,7 +54,7 @@ module.exports = function(app) {
     });
 
     app.get('/guides', function(req, res) {
-        res.sendfile('./public/index.html');
+        res.sendfile('./public/guides.html');
     });
 
     app.get('/contact', function(req, res) {
@@ -68,7 +68,15 @@ module.exports = function(app) {
 
     // Provesoft App ==================================================================================================/
 
+    app.get('/pricing', function(req, res) {
+        res.sendfile('./public/index.html');
+    });
+
     app.get('/signup', function(req, res) {
+        res.sendfile('./public/index.html');
+    });
+
+    app.get('/login', function(req, res) {
         res.sendfile('./public/signup.html');
     });
 
