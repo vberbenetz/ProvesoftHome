@@ -1,4 +1,9 @@
 /* Add here all your css styles (customizations) */
+
+html {
+    overflow-x: hidden;
+}
+
 .headline {
     border-bottom: 0;
 }
