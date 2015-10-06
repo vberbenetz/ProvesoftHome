@@ -30,8 +30,9 @@
     <link rel="stylesheet" href="assets/plugins/animate.css">
     <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings.css" type="text/css" media="screen">
-    <!--[if lt IE 9]><link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen"><![endif]-->
+
+    <!-- Mailchimp -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -83,7 +84,7 @@
                                     </li>
 
                                     <li class="dropdown">
-                                        <a href="/continuous-improvement" class="dropdown-toggle" data-toggle="dropdown">
+                                        <a href="/continuous-improvement">
                                             Continuous Improvement
                                         </a>
                                     </li>
@@ -103,11 +104,11 @@
                                     </li>
 
                                     <li class="dropdown">
-                                        <a href="javascript:void(0);">Consulting</a>
+                                        <a href="/consulting">Consulting</a>
                                     </li>
 
                                     <li class="dropdown">
-                                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                        <a href="/training">
                                             Training
                                         </a>
                                     </li>
@@ -124,26 +125,26 @@
                                 <ul class="dropdown-menu">
 
                                     <li class="dropdown">
-                                        <a href="javascript:void(0);">FAQs</a>
+                                        <a href="/faq">FAQs</a>
                                     </li>
 
                                     <li class="dropdown">
-                                        <a href="javascript:void(0);">White Papers</a>
+                                        <a href="/white-papers">White Papers</a>
                                     </li>
 
                                     <li class="dropdown">
-                                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                        <a href="/guides">
                                             Guides
                                         </a>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                        <a href="/contact">
                                             Contact Us
                                         </a>
                                     </li>
                                     <!--Blog-->
                                     <li class="dropdown">
-                                        <a href="/blog" class="dropdown-toggle" data-toggle="dropdown">
+                                        <a href="/blog">
                                             Blog
                                         </a>
                                     </li>
@@ -155,7 +156,7 @@
 
                             <!--Pricing-->
                             <li class="dropdown">
-                                <a href="javascript:void(0);">
+                                <a href="/pricing">
                                     Pricing
                                 </a>
                             </li>
@@ -163,7 +164,7 @@
 
                             <!--Login -->
                             <li class="dropdown">
-                                <a href="/blog">
+                                <a href="/login">
                                     Log In
                                 </a>
 
@@ -178,11 +179,12 @@
         <!-- End Navbar -->
     </div>
     <!--=== End Header v6 ===-->
+
     <!--=== Breadcrumbs v3 ===-->
     <div class="breadcrumbs-v3 img-v1">
         <div class="container text-center margin-top-40">
             <h1 class="header-1">Implementation Services</h1>
-            <h2 class="subHeader-1">Our Help is Free! Just Ask!</h3>
+            <h2 class="subHeader-1">Our Help is Free! Just Ask!</h2>
         </div><!--/end container-->
     </div>
     <!--=== End Breadcrumbs v3 ===-->
@@ -216,18 +218,12 @@
             </div>
         </div><!--/end row-->
 
-    <!--=== End Service Block v6 ===-->
+        <!--=== End Service Block v6 ===-->
         <div class="row margin-top-100">
             <div class="col-sm-4">
                 <!-- Begin MailChimp Signup Form -->
-                <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-                <style type="text/css">
-                    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-                    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                </style>
                 <div id="mc_embed_signup">
-                    <form action="//cantangosolutions.us11.list-manage.com/subscribe/post?u=a042a04bae8cf062c8ee3f447&amp;id=bf21f51991" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <form action="https://cantangosolutions.us11.list-manage.com/subscribe/post?u=a042a04bae8cf062c8ee3f447&amp;id=bf21f51991" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll">
                             <h2>Subscribe to receive news about new features and events </h2>
                             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
@@ -254,7 +250,6 @@
                         </div>
                     </form>
                 </div>
-                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
                 <!--End mc_embed_signup-->
             </div>
             <div class="col-sm-2 text-center">
@@ -382,13 +377,24 @@
 <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
 <script type="text/javascript" src="assets/plugins/smoothScroll.js"></script>
 
+<script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>
+    (function($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0]='EMAIL';
+        ftypes[0]='email';
+        fnames[1]='FNAME';
+        ftypes[1]='text';
+        fnames[2]='LNAME';
+        ftypes[2]='text';
+    }(jQuery));var $mcj = jQuery.noConflict(true);
+</script>
+
 <!-- JS Customization -->
 <script type="text/javascript" src="assets/js/custom.js"></script>
 <!-- JS Page Level -->
 <script type="text/javascript" src="assets/js/app.js"></script>
-
-
-
 
 
 <!--[if lt IE 9]>
@@ -396,11 +402,6 @@
 <script src="assets/plugins/html5shiv.js"></script>
 <script src="assets/plugins/placeholder-IE-fixes.js"></script>
 <![endif]-->
-
-<script src="assets/plugins/wow-animations/js/wow.min.js"></script>
-<script>
-    new WOW().init();
-</script>
 
 
 </body>
