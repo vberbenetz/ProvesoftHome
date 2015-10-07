@@ -1,71 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://www.cantangosolutions.com/</loc>
-    <lastmod>2015-05-29T14:24:47+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.cantangosolutions.com/scorecard-demo</loc>
-    <lastmod>2015-05-29T15:12:06+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.cantangosolutions.com/shop-demo</loc>
-    <lastmod>2015-05-27T00:17:29+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.cantangosolutions.com/contact</loc>
-    <lastmod>2015-05-29T15:12:06+00:01</lastmod>
-  </url>
-  <url>
-    <loc>http://www.cantangosolutions.com/our-mission</loc>
-    <lastmod>2015-05-29T15:12:06+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.cantangosolutions.com/blog/</loc>
-    <lastmod>2015-05-29T14:24:47+00:00</lastmod>
-  </url>
+<urlset
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://www.cantangosolutions.com/manufacturing</loc>
-        <lastmod>2015-05-29T14:24:47+00:00</lastmod>
+        <loc>http://provesoft.com/</loc>
+        <lastmod>2015-10-07T21:44:34+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.cantangosolutions.com/purchasing</loc>
-        <lastmod>2015-05-29T14:24:47+00:00</lastmod>
+        <loc>http://provesoft.com/process-control</loc>
+        <lastmod>2015-10-07T21:44:34+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.cantangosolutions.com/warehouse-management</loc>
-        <lastmod>2015-05-29T14:24:47+00:00</lastmod>
+        <loc>http://provesoft.com/cloud-storage</loc>
+        <lastmod>2015-10-07T21:44:34+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.cantangosolutions.com/order-entry</loc>
-        <lastmod>2015-05-29T14:24:47+00:00</lastmod>
+        <loc>http://provesoft.com/continuous-improvement</loc>
+        <lastmod>2015-10-07T21:44:34+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.cantangosolutions.com/shipping-receiving</loc>
-        <lastmod>2015-05-29T14:24:47+00:00</lastmod>
+        <loc>http://provesoft.com/consulting</loc>
+        <lastmod>2015-10-07T21:44:34+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.cantangosolutions.com/logistics</loc>
-        <lastmod>2015-05-29T14:24:47+00:00</lastmod>
+        <loc>http://provesoft.com/training</loc>
+        <lastmod>2015-10-07T21:44:34+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.cantangosolutions.com/process-viewer</loc>
-        <lastmod>2015-05-29T14:24:47+00:00</lastmod>
+        <loc>http://provesoft.com/faq</loc>
+        <lastmod>2015-10-07T21:44:34+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.cantangosolutions.com/improvement-collaboration</loc>
-        <lastmod>2015-05-29T14:24:47+00:00</lastmod>
+        <loc>http://provesoft.com/white-papers</loc>
+        <lastmod>2015-10-07T21:44:34+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.cantangosolutions.com/process-viewer</loc>
-        <lastmod>2015-05-29T14:24:47+00:00</lastmod>
+        <loc>http://provesoft.com/guides</loc>
+        <lastmod>2015-10-07T21:44:34+00:00</lastmod>
     </url>
-  <url>
-    <loc>http://www.cantangosolutions.com/blog/You-Already-Have-The-Team-You-Are-Looking-For</loc>
-    <lastmod>2015-05-29T14:24:47+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.cantangosolutions.com/blog/7-Top-Ways-to-Attract-and-Keep-Talented-Millennials</loc>
-    <lastmod>2015-06-29T16:10:00+00:00</lastmod>
-  </url>
+    <url>
+        <loc>http://provesoft.com/contact</loc>
+        <lastmod>2015-10-07T21:44:34+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://provesoft.com/blog/</loc>
+        <lastmod>2015-10-07T21:44:34+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://provesoft.com/pricing</loc>
+        <lastmod>2015-10-07T21:44:34+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://provesoft.com/our-mission</loc>
+        <lastmod>2015-10-07T21:44:34+00:00</lastmod>
+    </url>
 </urlset>
